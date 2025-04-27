@@ -1,6 +1,7 @@
 # Aegisub 打轴指南
 [![CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+[一些有用的小提示](/Useful-tips.md)
 ## 概述
 Aegisub 只能编辑并导出 ASS 字幕格式的文件，你需要一些小小的操作才可以为歌词文件（例如 Lyricify Syllable 和 TTML）打轴
 
@@ -10,6 +11,7 @@ Aegisub 只能编辑并导出 ASS 字幕格式的文件，你需要一些小小�
 
 ## 为什么要选择 Aegisub?
 Aesigub 与其它打轴工具（例如 AMLL TTML TOOL）有本质区别。Aegisub 通过阅读频谱图并拖动鼠标进行打轴，直观方便，精度非常高  
+
 其他打轴工具受限于你的反应速度，可能会有数十至数百毫秒的偏移，而且长时间的集中注意力倾听还可能会进一步降低精度
 
 ## 你需要的文件和工具
