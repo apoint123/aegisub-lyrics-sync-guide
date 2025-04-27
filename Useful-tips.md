@@ -9,3 +9,10 @@
 在这首歌中，歌词的节奏非常平缓，因此我将大部分字的时间都设置在 370 毫秒左右。尽管歌词并没有完全匹配上频谱图上的每个字，但显示效果很好
 
 如果歌曲的节奏是非常平缓的，那就不要让歌词忽快忽慢的，反之亦然
+
+## 使用时间后续处理器调整 offset
+你可以使用 Aegisub 的内置功能 **时间后续处理器** 快捷地调整整个歌词或部分歌词的 offset。  
+
+![image](https://github.com/user-attachments/assets/5cffa0fd-0509-45d5-aaa2-bc89479f81dd)  
+
+详情可阅读 [Aegisub 文档](https://aegisub.org/zh-cn/docs/latest/timing_post-processor/)
