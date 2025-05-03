@@ -22,7 +22,8 @@ Aesigub 与其它打轴工具（例如 AMLL TTML TOOL）有本质区别。Aegisu
     - 我推荐使用 arch1t3cht 的 [Fork 版本](https://github.com/arch1t3cht/Aegisub)，因为其包含更多功能。本篇指南也将以该版本为例
 - 相应的音频文件
 - 文件格式转换器
-    - 你可以使用我写的 [QQLyricFetcher](https://github.com/apoint123/QQLyricFetcher)，该工具可以从 QQ 音乐服务器下载指定的 QRC 歌词并转换为 Aegisub 可以使用的 ASS 字幕格式
+    - 推荐使用 [LDDC](https://github.com/chenmozhijin/LDDC) 获取 ASS 字幕文件
+    - 或者使用我写的 [QQLyricFetcher](https://github.com/apoint123/QQLyricFetcher)
     - 在打轴完成后，你还需要使用我的 [AssandQrcConverter](https://github.com/apoint123/AssandQrcConverter-rust) 工具将 ASS 字幕格式转换为 Lyricify Syllable 文件或 QRC 文件
     - 或者使用由 ranhengzhang 写的[脚本](https://github.com/ranhengzhang/amll-ttml-db-raw-data)和 [TTML TRANSLATER](https://github.com/ranhengzhang/ttml-translater)，该脚本是专门为 TTML 歌词打轴设计的
 
@@ -31,7 +32,7 @@ Aesigub 与其它打轴工具（例如 AMLL TTML TOOL）有本质区别。Aegisu
 
 - 相应的歌词文件
     - 可以是从音乐网站上复制的纯文本
-    - 也可以使用上述的 QQLyricFetcher 下载带时间轴的歌词
+    - 也可以使用上述的 LDDC 或 QQLyricFetcher 下载带时间轴的歌词
 - 提取对应歌曲的人声部分
     - 你可以使用搜索引擎寻找此类工具
 
@@ -101,5 +102,3 @@ Aesigub 与其它打轴工具（例如 AMLL TTML TOOL）有本质区别。Aegisu
 你可以直接将字幕文件拖动到 AssandQrcConverter 程序上以自动转换。若没有设置说话人，则会转换为 QRC 歌词文件，若设置了任意一个说话人，则会转换为 Lyricify Syllable 文件
 
 ![image](https://github.com/user-attachments/assets/6be437ae-ca03-43b0-bd1f-9266bd64e714)
-
-若要转换为其他格式的歌词，你可以使用 [AMLL TTML TOOL](https://steve-xmh.github.io/amll-ttml-tool/)
